@@ -1,0 +1,27 @@
+#taskbar {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding-right: 30px;
+}
+ul{
+    padding: 0px;
+    margin: 0px;
+}
+li{
+    border-bottom: none;
+    font-size: 5px;
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+    list-style: none;
+    display: inline-block;
+    border-left: 1px solid white ;
+}
+a{
+    list-style: none;
+}
+#unline-boder{
+    border-left:none ;
+    font-size: 30px;
+}
