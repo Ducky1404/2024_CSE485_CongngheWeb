@@ -1,0 +1,57 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#icon_home{
+font-size: 30px;
+    border-left: none;
+}
+#taskbar {
+
+    background-color: darkblue;
+    text-align: left;
+    color: white;
+    padding:10px 10px 10px 30px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    font-family: Arial, sans-serif;
+    display: inline-block;
+    margin: 0;
+    padding: 0 10px;
+    list-style: none;
+}
+
+a {
+    padding-left: 20px;
+    border-left: 1px solid white;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+/* Thêm phần tử block cho màn hình nhỏ hơn */
+@media screen and (max-width: 768px) {
+    #taskbar ul {
+        display: block;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    #taskbar li {
+        display: block;
+        margin: 5px 0;
+        padding: 0;
+    }
+    #taskbar a {border-left: none;}
+}
